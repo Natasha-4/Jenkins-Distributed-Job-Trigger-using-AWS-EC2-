@@ -5,7 +5,7 @@ Architecture:
 EC2 Instance 1 → Jenkins Controller -EC2 Instance 2 → Remote Jenkins Server
 
 Steps:
--Launch two EC2 instances on AWS.
+-Launch two EC2 instances on AWS. 
 -Install Java and Jenkins on both servers.
 -Create a Jenkins job on the Remote Server. 
 -Enable "Trigger builds remotely" and add a token.
